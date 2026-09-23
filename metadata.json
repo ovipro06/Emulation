@@ -1,0 +1,8 @@
+{
+  "name": "Android 14 Magisk OS Emulator",
+  "description": "Full-featured Android 14 Virtual Device Emulator with Google Play Services, Magisk v27.0 Root Manager, interactive shell terminal, root module flashing, and APK sideloading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="androidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ddc84" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="496" height="496" x="8" y="8" rx="104" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="6" />
+
+  <!-- Android 14 Bot Head -->
+  <g transform="translate(0, 20)">
+    <!-- Antennas -->
+    <line x1="196" y1="130" x2="160" y2="85" stroke="#3ddc84" stroke-width="18" stroke-linecap="round" />
+    <line x1="316" y1="130" x2="352" y2="85" stroke="#3ddc84" stroke-width="18" stroke-linecap="round" />
+
+    <!-- Head Dome -->
+    <path d="M 140 220 A 116 116 0 0 1 372 220 Z" fill="url(#androidGrad)" />
+
+    <!-- Eyes -->
+    <circle cx="206" cy="180" r="14" fill="#0f172a" />
+    <circle cx="306" cy="180" r="14" fill="#0f172a" />
+
+    <!-- Magisk Root Shield Badge in Center -->
+    <path d="M 256 240 L 336 270 L 336 345 C 336 395 256 430 256 430 C 256 430 176 395 176 345 L 176 270 Z" fill="url(#shieldGrad)" />
+    <!-- White Shield Lightning/M Bolt -->
+    <path d="M 240 275 L 275 275 L 246 335 L 272 335 L 235 395 L 248 345 L 225 345 Z" fill="#ffffff" />
+  </g>
+</svg>
